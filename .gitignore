@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+
+# Original large datasets (DO NOT COMMIT)
+backend/data/docs.jsonl
+data/arxiv-metadata-oai-snapshot.json
+
+# Large original datasets (DO NOT PUSH)
+data/docs.jsonl
+backend/data/docs.jsonl
+
+# Raw / cleaned text files (DO NOT PUSH)
+data/raw_docs/
+data/cleaned_docs/
+
+# Extra generated outputs (not needed for demo)
+output/all_docs.json
+output/cleaned_docs.json
